@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form || Session Storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <div class="form-box">
+          <div class="form">
+            <h2>Sign Up</h2>
+            <form role="form" action="login.html" onsubmit="register(event);">
+              <div class="input-box">
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  placeholder="First Name"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  type="password"
+                  name="pwd"
+                  id="pwd"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="group">
+                <a href="#">Forgot Password</a>
+                <a href="#">Sign In</a>
+              </div>
+              <button type="submit">Sign Up</button>
+              <button type="reset" class="reset">Reset</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
